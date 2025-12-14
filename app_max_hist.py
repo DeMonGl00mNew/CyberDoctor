@@ -38,7 +38,7 @@ def get_gigachat_advice(status, msg, thickness, power, speed, min_s, max_s):
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Accept': 'application/json',
-        'RqUID': 'fcad7112-80b3-456f-8ce3-31f533e5b5b2',  # Уникальный ID запроса (можно генерировать)
+        'RqUID': '55e66d66-2285-4511-96cd-1741732a63cd',  # Уникальный ID запроса (можно генерировать)
         'Authorization': f'Basic {auth_key}'  # Base64-encoded credentials (должны быть уже закодированы)
     }
     payload = {'scope': 'GIGACHAT_API_PERS'}  # Область доступа — персональная модель
